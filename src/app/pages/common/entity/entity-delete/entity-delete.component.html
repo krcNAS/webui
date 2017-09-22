@@ -1,0 +1,11 @@
+<md-card title="Are You Sure?">
+	<form>
+  	<div *ngIf="error" class="error">
+    		<span>{{ error }}</span>
+  	</div>
+  	<p>Are you sure you want to delete?</p>
+   	<button md-raised-button color="primary" class="btn btn-outline-danger" (click)="doSubmit()">Yes</button>
+   	<button md-raised-button color="accent" class="btn btn-outline-warning" (click)="doCancel()">Cancel</button>
+	</form>
+
+</md-card>

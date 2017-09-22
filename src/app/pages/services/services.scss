@@ -1,0 +1,13 @@
+.services-wrap {
+	display: flex;
+    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+}
+.service-item {
+	flex: 1 1 25%;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    max-width: 50%;
+}
